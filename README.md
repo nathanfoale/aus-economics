@@ -23,3 +23,21 @@ git clone https://github.com/nathanfoale/aus-economics.git
 cd aus-economics
 pip install -r requirements.txt
 streamlit run spending_vs_debt.py
+```
+
+## 🏘️ Housing Supply Stress Simulation
+
+This dashboard explores housing pressures in Australia based on:
+
+- Population growth paths (ABS, Treasury, High Migration, Labor Budget)
+- Housing supply targets (Labor, Moderate/Severe shortfall)
+- Simulated rental pressure and net surplus
+
+📈 **Outputs:**
+- Demand vs Supply Graph
+- Rental Price Pressure (%)
+- Surplus or Shortfall
+
+## 🧪 Live App
+
+👉 [Click here to view the app on Streamlit Cloud](https://laborbudget2025.streamlit.app)
